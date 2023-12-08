@@ -1,0 +1,220 @@
+.home{
+ position: relative;
+ top: 0;
+ margin: 0;
+ padding: 0;
+ left: 0;
+ background-color: white;
+}
+
+.content{
+  position:relative;
+  background-color:azure;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+}
+
+.banner{
+  position:static;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  background-color:burlywood;
+}
+
+.wego__banner{
+  text-align: center;
+}
+
+.home_links_container{
+  background-color:azure;
+  padding: 20px;
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  left:0;
+  border: 25px;
+
+}
+
+.home_links{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.home_links a {
+  color: rgb(39, 135,245);
+  text-decoration:wavy;
+  margin: 0 75px;
+}
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+
+.icon__app{
+    font-size: 25px;
+    color:rgb(39, 135,245);
+}
+
+
+.plus__icon{
+    transform: rotate(45deg);
+    color: rgb(39, 135,245);
+}
+
+.button__plus{
+  position: fixed;
+  height: 150px;
+  justify-content: center;
+  bottom: 0;
+  margin: 0 0 0 -30px;
+}
+
+
+/*Support*/
+
+.message-input {
+  background-color: var(--field_background);
+  border: 1px solid var(--outline_button_border);
+  color: var(--text_primary);
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.message-input {
+  position: fixed;
+  bottom: 120px;
+  width: 99%;
+
+}
+
+.contentsupp {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color:rgb(39,135, 245);
+}
+
+.bannersupp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color:rgb(39,135, 245);
+}
+
+.bannersupp__text{
+  color: rgb(255, 255, 255);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  padding: 20px;
+}
+
+/*Supportend*/
+
+
+.group__active{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  bottom: 125px;
+  width: 100%;
+}
+
+.usles__button{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 5px;
+  background-color: white;
+  
+}
+
+
+.panel__scroll{
+
+  padding: 5px;
+}
+
+.formtime{
+    text-align: center;
+}
+
+
+.highlighted {
+  transform: scale(1.2);
+  
+}
+
+.highlighted1 {
+  transform: scale(1.2);
+  
+}
+
+.highlighted2 {
+  transform: scale(1.2);
+  
+}
+.highlighted3 {
+  transform: scale(1.2);
+  
+}
+
+
+.panel1{
+  width: 100%;
+  justify-content: center;
+  background-color: grey;
+}
+.vkuiPanelHeader__in{
+  background-color: rgb(245, 245, 245);
+}
+.vkuiPanelHeader__content-in {
+  color: rgb(39,135, 245);
+  text-align: left;
+}
+/*Profile*/
+
+.Button_active {
+  background-color: rgba(39,135, 245);
+  color: white !important; 
+}
+
+/*------adap--------*/
+@media (max-width:720px) {
+  .home_links a{
+    margin:0 30px;
+  }
+  .home_links {
+    left: 50px;
+  }
+
+  .group__active{
+    transform: scale(0.9);
+    bottom: 80px;
+  }
+}
+
+@media (max-height:720px) {
+  .group__active{
+    transform: scale(0.8);
+    bottom: 80px;
+    
+  }
+}
